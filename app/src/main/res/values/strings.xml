@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Notes</string>
+
+    <!-- Note list screen -->
+    <string name="add_note">Add note</string>
+    <string name="edit_note">Edit note</string>
+    <string name="delete_note">Delete note</string>
+    <string name="empty_notes_message">No notes yet.\nTap the + button to create your first note.</string>
+
+    <!-- Add/Edit screen -->
+    <string name="hint_title">Title</string>
+    <string name="hint_content">Write your note here…</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="error_title_required">Title is required</string>
+    <string name="error_content_required">Content is required</string>
+
+    <!-- Delete confirmation dialog -->
+    <string name="delete_note_title">Delete note?</string>
+    <string name="delete_note_message">Are you sure you want to delete \"%1$s\"? This action cannot be undone.</string>
+    <string name="delete">Delete</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#5B5FEF</color>
+    <color name="accent_dark">#4347C4</color>
+    <color name="background">#F7F6F3</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="delete_icon">#E05252</color>
+    <color name="text_primary">#1E1E24</color>
+    <color name="text_secondary">#767685</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="spacing_lg">24dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_xl">40dp</dimen>
+    <dimen name="spacing_xs">4dp</dimen>
+    <string name="add_note">Add note</string>
+    <string name="app_name">My Notes</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="delete_note">Delete note</string>
+    <string name="delete_note_message">Are you sure you want to delete \"%1$s\"? This action cannot be undone.</string>
+    <string name="delete_note_title">Delete note?</string>
+    <string name="edit_note">Edit note</string>
+    <string name="empty_notes_message">No notes yet.\nTap the + button to create your first note.</string>
+    <string name="error_content_required">Content is required</string>
+    <string name="error_title_required">Title is required</string>
+    <string name="hint_content">Write your note here…</string>
+    <string name="hint_title">Title</string>
+    <string name="save">Save</string>
+    <style name="Theme.NoteTaking" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorPrimaryDark">@color/accent_dark</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
